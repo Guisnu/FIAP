@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+
+button {
+  border: 0;
+}
+/*------ Roda pé ------*/
+#footer {
+  background-color: #660000;
+  width: 980px;
+  height: 26px;
+  margin-bottom: 200px;
+}
+
+#footer p {
+  padding-right: 110px;
+  color: white;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  font-weight: 14px;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#txt-footer {
+  padding-top: 0px;
+  width: 980px;
+  height: 96px;
+  background-color: #1b8e99;
+  display: flex;
+}
+
+#txt-footer p {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: white;
+  margin: auto;
+  margin-right: 200px;
+}
+
+#txt-footer .logo-pe {
+  width: 123px;
+  height: 28px;
+  padding: 37px 60px 30px 25px;
+}
+
+.img-pe {
+  width: 980px;
+  margin-top: 95px;
+}
+
+.drone-a {
+  position: absolute;
+  top: -34%;
+}
+
+.drone-b {
+  position: absolute;
+  left: 45%;
+  top: -34%;
+}
+.drone-c {
+  position: absolute;
+  left: 67%;
+  top: -34%;
+}
+
+.prof {
+  right: 20px;
+  top: -63%;
+  position: absolute;
+}
+
+main {
+  width: 980px;
+  margin: auto;
+}
+
+/*------ parte de baixo principal ------*/
+
+#baixo-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#baixo-main img {
+  width: 300px;
+}
+
+#baixo-main h2 {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+
+#cursos p,
+#manutencoes p,
+#filmagens-aereas p {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+#cursos {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #660000;
+  box-shadow: 0px 5px 0px #660000;
+  color: #660000;
+}
+
+#manutencoes {
+  width: 300px;
+  height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #1b8e99;
+  box-shadow: 0px 5px 0px #1b8e99;
+  color: #1b8e99;
+}
+
+#filmagens-aereas {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #660000;
+  box-shadow: 0px 5px 0px #660000;
+  color: #660000;
+}
+
+#txt-servicos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#txt-servicos h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1c8e99;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+#txt-servicos img {
+  position: absolute;
+  width: 125px;
+  height: 77px;
+  right: 15px;
+  top: -9%;
+}
+
+hr.hr1 {
+  width: 100%;
+  height: 20px;
+  background-color: #444444;
+  border: none;
+  margin-bottom: 4%;
+}
+
+hr.hr2 {
+  width: 855px;
+  position: absolute;
+  height: 2px;
+  background-color: #1b8e99;
+  border: none;
+}
+
+hr.hr3 {
+  width: 855px;
+  position: absolute;
+  height: 2px;
+  background-color: #660000;
+  border: none;
+}
+
+/*------ parte de cima principal ------*/
+
+div.loja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div.loja img {
+  width: 100%;
+}
+
+.item {
+  width: 296px;
+  height: 372px;
+  border: 2px solid #1c8c97;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-2 {
+  width: 296px;
+  height: 372px;
+  border: 2px solid #660000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item h2,
+.item-2 h2 {
+  font-size: 17px;
+  align-self: center;
+  margin: 6px 10px;
+  width: 275px;
+  text-align: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1b8e9944;
+  color: #1b8e99;
+  padding: 5px;
+}
+
+.item-2 h2 {
+  background-color: #6600007c;
+  color: #660000;
+}
+
+.item p,
+.item-2 p {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-item {
+  font-size: 13px;
+  margin: 10px;
+  color: #1b8e99;
+}
+
+.info-item-2 {
+  font-size: 13px;
+  margin: 10px;
+  color: #660000;
+}
+
+.valor {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b8e99;
+  height: 96px;
+  align-items: center;
+  color: white;
+}
+
+.valor h3 {
+  font-size: 30px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.valor-2 {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #660000;
+  height: 96px;
+  align-items: center;
+  color: white;
+}
+
+.valor-2 h3 {
+  font-size: 30px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.cart-button {
+  background-image: url(/img/carrinho.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 55px;
+  border-radius: 3px;
+}
+
+#drone-1 {
+  width: 300px;
+  height: 280px;
+  border: 1px solid #660000;
+}
+
+#drone-2 {
+  width: 300px;
+  height: 280px;
+  border: 1px solid #660000;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+#drone-3 {
+  width: 300px;
+  height: 280px;
+  border: 1px solid #660000;
+}
+
+#drone-1 h2,
+#drone-2 h2,
+#drone-3 h2 {
+  font-size: 17px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+#txt-loja_virtual {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#txt-loja_virtual h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #660000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+#txt-loja_virtual img {
+  position: absolute;
+  width: 125px;
+  height: 77px;
+  right: 0px;
+  top: -9%;
+  width: 125px;
+  height: 77px;
+}
+/* Banner e nav */
+nav {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: end;
+  background-color: #660000;
+}
+nav > a {
+  padding: 20px 10px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+#hero {
+  background-image: url(../img/banner.fw.png);
+  height: 350px;
+  position: relative;
+}
+#nav-cima {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #1b8e99;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#nav-cima > a:hover{
+  background-color: #92c9ce;
+  transition-duration: 0.3s;
+  border: none;
+}
+#nav-baixo {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  justify-content: start;
+  font-weight: 500;
+}
+#nav-baixo > a:hover{
+  background-color: white;
+  transition-duration: 0.3s;
+  border: none;
+  border-radius: 5px;
+  color: #660000;
+}
+header {
+  margin-top: 200px;
+}
+#logo-banner{
+  z-index: 1;
+  position: absolute;
+  top: -25px;
+  left: 15px;
+}

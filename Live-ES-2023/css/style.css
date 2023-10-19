@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+} /*  rgba(0,0,0, .6 */
+/* Variaveis são globais (escopo) */
+
+:root {
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-pink: #dc143c;
+  --font-body: "Poppins", sans-serif;
+}
+
+/* inicio do hero */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  color: var(--color-light);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 15px;
+}
+.hero-title {
+  font-size: 9vmin;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 32px;
+}
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--color-pink);
+  padding: 7px 25px;
+  border-radius: 70px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 2px solid var(--color-pink);
+  transition: 0.5s;
+}
+.btn:hover {
+  color: var(--color-pink);
+  background-color: transparent;
+}
+
+/* fim do hero */
+
+/* cards */
+.cards {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-item {
+  width: 28%;
+  /* min-height: 400px; */
+  border: 1px solid var(--color-pink);
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 7px;
+  transition: .5s;
+}
+
+.card-item:hover{
+scale: 1.1;
+}
+
+.card-item img {
+  width: 70%;
+  border-radius: 7px;
+}
+
+/* fim cards */
+
+@media(max-width:1024px){
+  .card-item {
+    width: 40%;
+    margin: 40px 0;
+  }
+}
+@media(max-width:800px){
+  .card-item {
+    width: 70%;
+  }
+}
