@@ -286,7 +286,7 @@ div.loja img {
 }
 
 .cart-button {
-  background-image: url(/img/carrinho.png);
+  background-image: url(../img/carrinho.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 65px;
