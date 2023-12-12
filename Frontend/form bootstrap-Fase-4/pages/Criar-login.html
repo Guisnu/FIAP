@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Formulário Básico</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="content d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+      <div class="col-md-7">
+        <h1>Criação de login</h1>
+        <form id="form-login" class="was-validated m-1" oninput='pswd1.setCustomValidity(pswd1.value != pswd2.value ? " " : "")'>
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Usuário:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Digite o usuário" name="uname" required>
+            <div class="valid-feedback">Informação Válida</div>
+            <div class="invalid-feedback">Preencha o dado do usuário.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd1" class="form-label">Senha:</label>
+            <input type="password" class="form-control" id="pwd1" placeholder="Digite a senha" name="pswd1" required>
+            <div class="valid-feedback">Informação Válida</div>
+            <div class="invalid-feedback">Informe a senha</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd2" class="form-label">Confirmação Senha:</label>
+            <input type="password" class="form-control" id="pwd2" placeholder="Digite a senha" name="pswd2" required>
+            <div class="valid-feedback">Informação Válida</div>
+            <div class="invalid-feedback">Informe a senha</div>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="chkPermissao"  name="remember" required>
+            <label class="form-check-label" for="myCheck">Eu concordo com o termos de aceite.</label>
+            <div class="valid-feedback">Informação Válida</div>
+            <div class="invalid-feedback">Clique em concordar para seguir</div>
+          </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="button" class="btn btn-primary" id="clean">Limpar Formulário</button>
+    </form>
+    </div>
+    </div>
+    <script src="../Js/main.js"></script>
+    </body>
+</html>
