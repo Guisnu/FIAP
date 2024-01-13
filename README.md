@@ -1,1 +1,0 @@
-Objetivo desse repositório é manter meus estudos publicos para mostrar meus conhecimentos.
