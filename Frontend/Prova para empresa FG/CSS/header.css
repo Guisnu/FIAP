@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    & img{
+        width: 100px;
+        margin-right: 50px;
+    }
+
+    & a{
+        display: flex;
+        text-decoration: none;
+        color: #b3b3b3;
+        padding: 0px 10px;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        margin-right: 20px;
+        transition: 0.4s;
+
+        &:hover{
+            transform:scale(1.1);
+            color: var(--cor-escura);
+        }
+    }
+}
+#numero{
+    padding: 10px;
+    height: 50px;
+    margin-left: 30px;
+    align-items: center;
+    background-color: #f35f29;
+    color: white;
+    font-style: italic;
+}

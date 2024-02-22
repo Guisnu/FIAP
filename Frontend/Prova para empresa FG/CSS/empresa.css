@@ -1,0 +1,35 @@
+#Empresa > .container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+    & #content-Empresa{
+        width: 500px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+h1{
+    font-size: 1.5625rem;
+    margin-bottom: 10px;
+    color: var(--cor-laranja);
+}
+#btn-saiba-mais{
+    display: flex;
+    flex-direction: column;
+}
+.btnA{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
