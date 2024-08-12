@@ -7,9 +7,9 @@ public class VariaveisExemplos {
         boolean ehEstudante = true;
 
         //exibindo os valores das variáveis
-        System.out.println("Idade:" + idade );
-        System.out.println("Altura" + altura );
-        System.out.println("Genero" + genero );
-        System.out.println("Especial" + ehEstudante);
+        System.out.println("Idade: " + idade );
+        System.out.println("Altura: " + altura );
+        System.out.println("Genero: " + genero );
+        System.out.println("Especial: " + ehEstudante);
     }
 }
